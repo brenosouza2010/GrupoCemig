@@ -107,7 +107,7 @@ addToCartButtons.forEach((btn, index) => {
         const productName = productCard.querySelector('h3').textContent;
         const productPrice = productCard.querySelector('.price').textContent;
         
-        console.log('Adicionado ao carrinho:', productName, productPrice);
+        console.log('SIM!', productName, productPrice);
         
         // Animação de feedback
         const originalText = btn.textContent;
