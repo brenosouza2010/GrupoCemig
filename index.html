@@ -1,11 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ProjetoCemig</title>
+    <title>Agrinho | Agro-Sustentável</title>
+    <style>
+        /* Estilos Gerais */
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4fdf4; /* Verde bem clarinho para o fundo */
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Cabeçalho e Navegação */
+        header {
+            background-color: #1b5e20; /* Verde escuro (Matas) */
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+
+        nav {
+            background-color: #2e7d32;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #a5d6a7; /* Verde claro no hover */
+        }
+
+        /* Imagem Principal (Hero Section) */
+        .hero {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+        }
+
+        /* Seções de Conteúdo */
+        main {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            border-left: 8px solid #4caf50; /* Detalhe em verde vibrante */
+        }
+
+        h3 {
+            color: #2e7d32;
+            font-size: 2rem;
+            margin-top: 0;
+        }
+
+        .img-floresta {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #1b5e20;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+    </style>
 </head>
 <body>
-    <p>Testando site</p>
-</body>
-</html>
+
+    <header>
+        <h1>Projeto Agrinho</h1>
+        <p>Desenvolvimento e Conservação de Mãos Dadas</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#o-que-e">O que é?</a>
+        <a href="#importancia">Nossas Matas</a>
+    </nav>
+
+    <div class="hero" id="inicio">
+        <div>
+            <h2>Agro-Sustentável</h2>
+            <p>Produzindo com responsabilidade para proteger o futuro do Brasil.</p>
+        </div>
+    </div>
+
+    <main>
+        <section id="o-que-e">
+            <h3>O que é a Agricultura Sustentável?</h3>
+            <p>A agricultura sustentável é a forma de cultivar alimentos e criar animais respeitando o meio ambiente, garantindo que a natureza consiga se renovar. O objetivo é produzir o suficiente para alimentar a população hoje
