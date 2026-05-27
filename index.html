@@ -3,136 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agrinho | Agro-Sustentável</title>
-    <style>
-        /* Estilos Gerais */
-        body {
-            margin: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f4fdf4; /* Verde bem clarinho para o fundo */
-            color: #333;
-            line-height: 1.6;
-        }
-
-        /* Cabeçalho e Navegação */
-        header {
-            background-color: #1b5e20; /* Verde escuro (Matas) */
-            color: white;
-            padding: 1rem 0;
-            text-align: center;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-        
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-            letter-spacing: 1px;
-        }
-
-        nav {
-            background-color: #2e7d32;
-            padding: 10px;
-            text-align: center;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-            font-size: 1.1rem;
-            transition: color 0.3s;
-        }
-
-        nav a:hover {
-            color: #a5d6a7; /* Verde claro no hover */
-        }
-
-        /* Imagem Principal (Hero Section) */
-        .hero {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=1920&q=80');
-            background-size: cover;
-            background-position: center;
-            height: 400px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            text-align: center;
-            padding: 0 20px;
-        }
-
-        .hero h2 {
-            font-size: 3rem;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
-        }
-
-        .hero p {
-            font-size: 1.5rem;
-            text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
-        }
-
-        /* Seções de Conteúdo */
-        main {
-            max-width: 1000px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
-
-        section {
-            background: white;
-            padding: 30px;
-            margin-bottom: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-            border-left: 8px solid #4caf50; /* Detalhe em verde vibrante */
-        }
-
-        h3 {
-            color: #2e7d32;
-            font-size: 2rem;
-            margin-top: 0;
-        }
-
-        .img-floresta {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-            margin-top: 15px;
-        }
-
-        /* Rodapé */
-        footer {
-            background-color: #1b5e20;
-            color: white;
-            text-align: center;
-            padding: 20px 0;
-            margin-top: 40px;
-        }
-    </style>
+    <title>AgroSustentável | O Futuro da Terra</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>Projeto Agrinho</h1>
-        <p>Desenvolvimento e Conservação de Mãos Dadas</p>
+        <div class="logo">Agro<span>Sustentável</span></div>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#exemplos">Práticas</a>
+            <a href="#noticias">Notícias</a>
+        </nav>
     </header>
 
-    <nav>
-        <a href="#inicio">Início</a>
-        <a href="#o-que-e">O que é?</a>
-        <a href="#importancia">Nossas Matas</a>
-    </nav>
-
-    <div class="hero" id="inicio">
-        <div>
-            <h2>Agro-Sustentável</h2>
-            <p>Produzindo com responsabilidade para proteger o futuro do Brasil.</p>
+    <section id="inicio" class="capa">
+        <div class="capa-conteudo">
+            <h1>Cultivando um Amanhã Melhor</h1>
+            <p>Conheça as práticas agrícolas que preservam o meio ambiente e alimentam o mundo.</p>
+            <a href="#exemplos" class="btn">Explorar Projetos</a>
         </div>
-    </div>
+    </section>
 
-    <main>
-        <section id="o-que-e">
-            <h3>O que é a Agricultura Sustentável?</h3>
-            <p>A agricultura sustentável é a forma de cultivar alimentos e criar animais respeitando o meio ambiente, garantindo que a natureza consiga se renovar. O objetivo é produzir o suficiente para alimentar a população hoje
+    <section class="pesquisa-container">
+        <h2>O que você procura?</h2>
+        <div class="busca-box">
+            <input type="text" id="inputPesquisa" placeholder="Busque por 'notícias', 'orgânico', 'tecnologia'...">
+            <button onclick="buscarConteudo()">Pesquisar</button>
+        </div>
+    </section>
+
+    <section id="exemplos" class="secao">
+        <h2 class="titulo-secao">Exemplos de Sustentabilidade</h2>
+        <div class="cards-container">
+            <div class="card item-busca">
+                <h3>Agrofloresta</h3>
+                <p>Sistema que reúne a produção de alimentos com a conservação da floresta, recuperando o solo e a biodiversidade.</p>
+            </div>
+            <div class="card item-busca">
+                <h3>Rotação de Culturas</h3>
+                <p>Alternar espécies vegetais numa mesma área para quebrar o ciclo de pragas e melhorar os nutrientes da terra de forma orgânica.</p>
+            </div>
+            <div class="card item-busca">
+                <h3>Gotejamento Inteligente</h3>
+                <p>Sistemas de irrigação automatizados que aplicam a quantidade exata de água na raiz da planta, evitando o desperdício.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="noticias" class="secao fundo-claro">
+        <h2 class="titulo-secao">Últimas Notícias</h2>
+        <div class="noticias-container">
+            <article class="noticia-item item-busca">
+                <h4>Tecnologia no Campo</h4>
+                <p>Drones e sensores ajudam pequenos produtores a economizar até 40% de água em suas plantações neste ano.</p>
+            </article>
+            <article class="noticia-item item-busca">
+                <h4>Crescimento do Mercado Orgânico</h4>
+                <p>Consumo de alimentos sem agrotóxicos cresce pelo quinto ano consecutivo nas grandes capitais.</p>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Projeto Agro Sustentável. Desenvolvido para um futuro verde.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
