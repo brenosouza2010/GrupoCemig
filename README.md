@@ -1,2 +1,6 @@
 # GrupoCemig
-Agro sustável
+GrupoCemig
+-Breno
+-Samuel
+-Luís A
+-Eduardo
