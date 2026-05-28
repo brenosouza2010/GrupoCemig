@@ -1,6 +1,3 @@
 # GrupoCemig
 GrupoCemig
--Breno
--Samuel
--Luís A
--Eduardo
+https://brenosouza2010.github.io/GrupoCemig/
