@@ -107,11 +107,11 @@ addToCartButtons.forEach((btn, index) => {
         const productName = productCard.querySelector('h3').textContent;
         const productPrice = productCard.querySelector('.price').textContent;
         
-        console.log('SIM!', productName, productPrice);
+        console.log('Preço não Identificado!', productName, productPrice);
         
         // Animação de feedback
         const originalText = btn.textContent;
-        btn.textContent = '✓ Adicionado!';
+        btn.textContent = '✓ Tem!';
         btn.style.background = 'var(--secondary-green)';
         
         setTimeout(() => {
