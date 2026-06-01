@@ -5,13 +5,11 @@
 :root {
     --primary-green: #2d7c3e;
     --secondary-green: #4a9d5f;
-    --light-green: #262626;
     --very-light-green: #0f0f0f;
     --dark-green: #1b5e2a;
     --accent-gold: #d4a574;
     --text-dark: #2c3e50;
     --text-light: #7f8c8d;
-    --white: #1f1f1f;
     --border-color: #000000;
     --shadow-sm: 0 2px 8px rgba(45, 124, 62, 0.1);
     --shadow-md: 0 4px 16px rgba(45, 124, 62, 0.15);
